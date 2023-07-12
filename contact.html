@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <style>
+        /* AUTO SCREEN AREA START */
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        /* AUTO SCREEN AREA END */
+
+          /* HEADER SECTION START */
+        .header {
+            display: flex;
+            width: 100%;
+            height: 65px;
+            background-color: black;
+            padding-top: 16px;
+            padding-left: 140px;
+        }
+          /* HELP WORD IN HEADER AREA */
+        #help {
+            color: white;
+            opacity: 0.6;
+            padding-left: 7px;
+            padding-top: 5px;
+            font-family: sans-serif;
+            font-weight: 100;
+        }
+           /* WEBSITE LINK IN HEADER AREA */
+        #com {
+            position: absolute;
+            right: 300px;
+            color: white;
+            opacity: 0.6;
+            padding-left: 7px;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+         /* BUTTEN TAG IN HEADER AREA */
+        #btn {
+            position: absolute;
+            right: 130px;
+            color: white;
+            border: 1px solid white;
+            background-color: black;
+            border-radius: 20px;
+            opacity: 0.5;
+            padding: 6px 11px 6px 11px;
+            font-size: 6px;
+        }
+           /* HEADER SECTION END */
+
+           /* CONTENT SECTION START */
+        .content {
+            width: 100%;
+            height: 300px;
+            background-color: rgb(207, 227, 245);
+        }
+          /* PRA LINE */
+        #pra {
+            position: relative;
+            top: 90px;
+            text-align: center;
+            font-family: Arial, Helvetica, ;
+            font-weight: 100;
+        }
+            /* SEARCH TYPE INPUT  */
+        input[type=search] {
+            box-sizing: border-box;
+            width: 35%;
+            height: 40px;
+            border-radius: 18px;
+            border: none;
+            padding-left: 40px;
+        }
+        /* SEARCH ICON */
+        .search {
+            position: relative;
+            top: 120px;
+            text-align: center;
+            border-radius: 18px;
+        }
+        /* POPULAR WORD */
+
+        #popular {
+            position: relative;
+            top: 135px;
+            text-align: center;
+            font-family: sans-serif;
+            font-weight: 100;
+        }
+        /* CONTENT SECTION END */
+        
+        /* CONTAINER SECTION START */
+        .container {
+            display: flex;
+            width: 100%;
+            height: 300px;
+        }
+
+        .row {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+
+        }
+        /* first box */
+
+        .box-area {
+            box-sizing: border-box;
+            width: 70%;
+            height: 250px;
+            border: 2px solid rgb(238, 237, 237);
+            margin: 25px 0px 25px 120px;
+        }
+
+        .box-area h4 {
+            position: relative;
+            top: 20px;
+            left: 70px;
+        }
+
+        p {
+            position: relative;
+            top: 30px;
+            text-align: center;
+        }
+
+        #sign p {
+            text-align: center;
+            line-height: 1.5;
+            text-align: center;
+        }
+
+        input[type=reade] {
+            width: 80px;
+            height: 30px;
+            border-radius: 20px;
+            border: 1px solid green;
+            padding: 5px;
+        }
+
+        .reade {
+            position: relative;
+            top: 35px;
+            left: 120px;
+        }
+           /* second box */
+        .box-area1 {
+            box-sizing: border-box;
+            width: 70%;
+            height: 250px;
+            border: 2px solid rgb(238, 237, 237);
+            margin: 25px 0px 25px 0px;
+        }
+
+        .box-area1 h4 {
+            position: relative;
+            top: 20px;
+            left: 70px;
+        }
+
+        p {
+            position: relative;
+            top: 30px;
+            text-align: center;
+        }
+
+        #sign p {
+            text-align: center;
+            line-height: 1.5;
+            text-align: center;
+        }
+
+        input[type=reade] {
+            width: 80px;
+            height: 30px;
+            border-radius: 20px;
+            border: 1px solid green;
+            padding: 5px;
+        }
+
+        .reade {
+            position: relative;
+            top: 35px;
+            left: 120px;
+        }
+        /* third box */
+        .box-area2 {
+            box-sizing: border-box;
+            width: 70%;
+            height: 250px;
+            border: 2px solid rgb(238, 237, 237);
+            margin: 25px 120px 25px 0px;
+        }
+
+        .box-area2 h4 {
+            position: relative;
+            top: 20px;
+            left: 70px;
+        }
+
+        p {
+            position: relative;
+            top: 30px;
+            text-align: center;
+        }
+
+        #sign p {
+            text-align: center;
+            line-height: 1.5;
+            text-align: center;
+        }
+
+        input[type=reade] {
+            width: 80px;
+            height: 30px;
+            border-radius: 20px;
+            border: 1px solid green;
+            padding: 5px;
+        }
+
+        .reade {
+            position: relative;
+            top: 35px;
+            left: 120px;
+        }
+        /* CONTARINER SECTION END */
+        /* FOTTER SECTION START */
+        .fotter{
+            width: 100%;
+            height: 90px;
+            background-color: rgb(223, 234, 241);
+        }
+        /* FOTTER SECTION END */
+    </style>
+</head>
+
+<body>
+    <!-- HEADER SECTION AREA START -->
+    <div class="header">
+
+        <img src="medium.png" alt="" style="width: 140px; height:35px; ">
+        <h6 id="help">Help Center</h6>
+        <h6 id="com">Back to medium.com</h6>
+        <button id="btn">
+            Submit a request
+        </button>
+    </div>
+    <!-- HEADER SECTION END -->
+
+    <!-- CONTENT SECTION START -->
+    <div class="content">
+        <h1 id="pra">How can we help ?</h1>
+
+        <div class="search"><input type="search" name="search" placeholder="Search..."></div>
+        <h5 id="popular">Popular <bold>:</bold>
+        </h5>
+    </div>
+  <!-- CONTENT SECTION END -->
+
+    <!-- CONTAINER SECTION START  -->
+    <div class="container">
+        <!-- fist box -->
+        <div class="row">
+            <div class="box-area">
+                <h4>Getting stared</h4>
+                <p>Learn more about Medium and <br> quod, animi neque sperendis </p>
+                <div id="sign">
+                    <p> Sign in to medium </p>
+                    <p>Using to Medium.</p>
+                    <p>Mediu to glossary</p>
+                    <p>sign up to Medium</p>
+                </div>
+                <div class="reade"><input type="reade" name="see all" placeholder="See all..."></div>
+            </div>
+        </div>
+        <!-- second box -->
+        <div class="row">
+            <div class="box-area1">
+                <h4>Manageing acount</h4>
+                <p>Everything you need to know <br> quod , animi neque sperendis </p>
+                <div id="sign">
+                    <p> profile page URL</p>
+                    <p>Your profile page</p>
+                    <p>Adjust email hand</p>
+                    <p>Manage subcription</p>
+                </div>
+                    <div class="reade"><input type="reade" name="see all" placeholder="See all..."></div>
+            </div>
+        </div>
+        <!-- third box -->
+        <div class="row">
+            <div class="box-area2">
+                <h4>Reading Book</h4>
+                <p>Control your reading exprince <br>  animi neque sperendis </p>
+                <div id="sign">
+                    <p> Your homepage link</p>
+                    <p>Creat manage list</p>
+                    <p>Conrol your mind</p>
+                    <p>Mute auther public</p>
+                </div>
+                    <div class="reade"><input type="reade" name="see all" placeholder="See all..."></div>
+            </div>
+        </div>
+    </div>
+    <!-- CONTAINER SECTION END -->
+    <!-- FOTTER SECTION START -->
+    <div class="fotter"></div>
+
+</body>
+
+</html>
